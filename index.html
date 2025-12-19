@@ -62,7 +62,7 @@
                 <div class="hero-image">
                     <div class="phone-mockup">
                         <div class="phone-screen">
-                            <img src="assets/screenshots/gameplay.png" alt="Kete Game Screenshot" onerror="this.src='https://placehold.co/300x600/4a7c59/ffffff?text=Kete+Game'">
+                            <img src="assets/screenshots/screen2.png" alt="Kete Game Screenshot" onerror="this.src='https://placehold.co/300x600/4a7c59/ffffff?text=Kete+Game'">
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                     <!-- APK Download -->
                     <div class="download-box">
                         <h3><i class="fas fa-download"></i> Direct Download</h3>
-                        <a href="assets/apk/kete-online-v1.0.0.apk" class="download-btn" download>
+                        <a href="assets/apk/keteOnline.apk" class="download-btn" download>
                             <i class="fab fa-android"></i>
                             <div>
                                 <strong>Download APK</strong>
@@ -281,6 +281,33 @@
                     </ul>
                 </div>
             </div>
+            <!-- Add this in the "How to Play" section -->
+<div class="mobile-video-container">
+    <h3><i class="fas fa-mobile-alt"></i> Watch Gameplay Demo</h3>
+    <div class="mobile-video-wrapper">
+        <video controls poster="assets/video/thumbnail.jpg" class="mobile-screen-video">
+            <source src="assets/video/gameplay-demo.mp4" type="video/mp4">
+            <source src="assets/video/gameplay-demo.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        <div class="phone-frame"></div>
+    </div>
+    <div class="video-controls">
+        <button class="control-btn" onclick="playPause()">
+            <i class="fas fa-play"></i> Play/Pause
+        </button>
+        <button class="control-btn" onclick="toggleFullscreen()">
+            <i class="fas fa-expand"></i> Fullscreen
+        </button>
+        <a href="assets/video/kete_video.mp4" download class="control-btn">
+            <i class="fas fa-download"></i> Download Video
+        </a>
+    </div>
+    <p class="video-note">
+        <i class="fas fa-info-circle"></i>
+        Recorded from actual gameplay on mobile device
+    </p>
+</div>
         </div>
     </section>
 
