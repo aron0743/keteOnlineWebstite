@@ -1,0 +1,11 @@
+{
+  "latestVersionCode": 2,
+  "latestVersionName": "1.1.0",
+  "mandatory": false,
+  "releaseNotes": [
+    "Improved online stability",
+    "Better animations",
+    "Bug fixes and performance improvements"
+  ],
+  "apkUrl": "https://keteonline.netlify.app/assets/apk/keteOnline.apk"
+}
